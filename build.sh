@@ -1,0 +1,1 @@
+podman run --rm -v "$PWD:/app:Z" -w /app docker.io/library/rust:1-bookworm cargo build --release
